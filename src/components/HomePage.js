@@ -13,54 +13,7 @@ function Home() {
                     </div>
                 </div>
             </div>  
-            <div className="following-form-input form-input">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12 col-lg-12">
-                            <form action="">
-                                <div className="row hidden-xs">
-                                    <div className="col-sm-6 col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5">
-                                        <label>Pick Up Time:</label>
-                                        <input type="date" />
-                                        <input type="time" />
-                                    </div>
-                                    <div className="col-sm-6 col-md-5 col-lg-5">
-                                        <label>Drop Off Date:</label>
-                                        <input type="date" />
-                                        <input type="time" />
-                                        <span><button>Continue</button></span>
-                                    </div>
-                                </div>
-                                <div className="row hidden-sm hidden-md hidden-lg">
-                                    <div className="col-lg-12">
-                                        <div className="row">
-                                            <div className="col-lg-8">
-                                                <label>Pick Up Time:</label><br />
-                                                <input type="date" />
-                                                <input type="time" />
-                                            </div>
-                                        </div>
-                                        <div className="row">
-                                            <div className="col-lg-8">
-                                                <label>Drop Off Date:</label><br />
-                                                <input type="date" />
-                                                <input type="time" />
-                                            </div>
-                                        </div>
-                                        <div className="row">
-                                            <div className="col-lg-4">
-                                                <span><button>Continue</button></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <main>
+             <main>
                 <div className="approved-features">
                     <div className="container">
                         <div className="row">
