@@ -24,35 +24,28 @@ const App = () => {
 				<Route path="/location">
 					<Pages slide={slide2} title={"Find your Favorite Location"} />
 				</Route>
-				
 				<Route path="/phnom-penh">
 					<Pages slide={slide3} title={"Phnom Penh"} />
 				</Route>
-				
 				<Route path="/siem-reap">
 					<Pages slide={slide2} title={"Siem Reap"} />
 				</Route>
-				
 				<Route path="/about">
 					<Pages slide={slide3} title={"About"} />
 				</Route>
-				
 				<Route path="/register">
 					<Pages slide={slide2} title={"Register"} />
 				</Route>
-				
 				<Route path="/map">
 					<Pages slide={slide3} title={"Map"} />
 				</Route>
-				
 				<Route path="/contact">
 					<Pages slide={slide2} title={"Contact"} />
 				</Route>
-				
 				<Route path="/booking">
 					<Pages slide={slide3} title={"Booking"} />
 				</Route>
-				
+
 				{/* Footer */}
 				<Route render={Footer} />
 			</ScrollToTop>
