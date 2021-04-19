@@ -7,7 +7,7 @@ export default function Header() {
       <div className="container d-flex align-items-center">
         <h1 className="logo mr-auto">
           <Link to="/">
-            <span>Com</span>pany
+            <span>Ptas</span>Chuol
             </Link>
         </h1>
 
@@ -18,7 +18,7 @@ export default function Header() {
             </li>
 
             <li className="drop-down">
-              <Link to="/location">loCATION</Link>
+              <Link to="/location">location</Link>
               <ul>
                 <li className="active">
                   <Link to="/phnom-penh">Phnom Penh</Link>

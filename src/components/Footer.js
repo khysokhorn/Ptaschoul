@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -16,23 +17,23 @@ export default function Header() {
               <ul>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#footer">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#footer">About us</a>
+                  <Link to="/about">About us</Link>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#footer">Services</a>
+                  <Link to="/location">Location</Link>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#footer">Terms of service</a>
+                  <Link to="/map">Map</Link>
                 </li>
                 <li>
                   <i className="bx bx-chevron-right"></i>{" "}
-                  <a href="#footer">Privacy policy</a>
+                  <Link to="/booking">Booking</Link>
                 </li>
               </ul>
             </div>
