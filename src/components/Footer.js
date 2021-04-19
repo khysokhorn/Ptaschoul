@@ -1,66 +1,115 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
 
-function Footer() {
-    return (
-        <>
-            <footer>
-                <div className="company-info">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-sm-12 col-lg-12 hidden-lg">
-                                <Link to='/'><img src="/img/logo-medium.png" alt="L'VRT Rentals" title="L'VRT Rentals" /></Link>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-sm-5 col-lg-5 about-us">
-                                <h2>About Us</h2>
-                                <p>Lorem ipsum, doloretur adipisicing elit. Voluptatum odio, incidunt, quia eveniet officia laborum temporibus repudiandae distinctio ut, illum repellat pariatur repellendus natus veritatis reprehenderit facere consequatur veniam totam?</p>
-                                <Link to="/about">Learn More</Link>
-                            </div>
-                            <div className="col-sm-3 col-lg-3">
-                                <h2>Vehicles</h2>
-                                <ul>
-                                    <li><a href="#link">Exotic</a></li>
-                                    <li><a href="#link">Luxury</a></li>
-                                </ul>
-                            </div>
-                            <div className="col-sm-4 col-lg-4">
-                                <h2>Contact Us</h2>
-                                <ul>
-                                    <li>
-                                        <i className="fas fa-map-marker-alt"></i>
-                                        <span>119 North State Street Jackson, MS</span>
-                                    </li>
-                                    <li>
-                                        <i className="fas fa-phone"></i>
-                                        <span>(123)-456-7890</span>
-                                    </li>
-                                    <li>
-                                        <i className="far fa-envelope"></i>
-                                        <a href="mailto:">123@example.com</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="container bottom-bar">
-                    <div className="row">
-                        <div className="col-sm-12 col-lg-12">
-                            <ul>
-                                <li><a href="#link"><i className="fab fa-facebook-square"></i></a></li>
-                                <li><a href="#link"><i className="fab fa-twitter-square"></i></a></li>
-                                <li><a href="#link"><i className="fab fa-youtube-square"></i></a></li>
-                                <li><a href="#link"><i className="fab fa-pinterest-square"></i></a></li>
-                            </ul>
-                            <h2>©Copyright</h2>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </>
-    )
+export default function Header() {
+  return (
+    <footer id="footer">
+      <div className="footer-top">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3 col-md-6 footer-contact">
+              <h3>Company</h3>
+              <p>A108 Adam Street New York, NY 535022 United States</p>
+            </div>
+
+            <div className="col-lg-2 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#footer">Home</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#footer">About us</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#footer">Services</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#footer">Terms of service</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#footer">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="col-lg-3 col-md-6 footer-links">
+              <h4>Our Services</h4>
+              <ul>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#footer">Web Design</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#footer">Web Development</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#footer">Product Management</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#footer">Marketing</a>
+                </li>
+                <li>
+                  <i className="bx bx-chevron-right"></i>{" "}
+                  <a href="#footer">Graphic Design</a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="col-lg-4 col-md-6 footer-newsletter">
+              <h4>Join Our Newsletter</h4>
+              <p>
+                Tamen quem nulla quae legam multos aute sint culpa legam
+                noster magna
+                  </p>
+              <form action="" method="post">
+                <input type="email" name="email"></input>
+                <input type="submit" value="Subscribe"></input>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container d-md-flex py-4">
+        <div className="mr-md-auto text-center text-md-left">
+          <div className="copyright">
+            &copy; Copyright{" "}
+            <strong>
+              <span>Company</span>
+            </strong>
+                . All Rights Reserved
+              </div>
+          <div className="credits">
+            Designed by{" "}
+            <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+        <div className="social-links text-center text-md-right pt-3 pt-md-0">
+          <a href="#footer" className="twitter">
+            <i className="bx bxl-twitter"></i>
+          </a>
+          <a href="#footer" className="facebook">
+            <i className="bx bxl-facebook"></i>
+          </a>
+          <a href="#footer" className="instagram">
+            <i className="bx bxl-instagram"></i>
+          </a>
+          <a href="#footer" className="google-plus">
+            <i className="bx bxl-skype"></i>
+          </a>
+          <a href="#footer" className="linkedin">
+            <i className="bx bxl-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  );
 }
-
-export default Footer
