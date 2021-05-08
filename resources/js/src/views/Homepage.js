@@ -9,12 +9,16 @@ import "../assets/vendor/animate.css/animate.min.css";
 import "../assets/vendor/venobox/venobox.css";
 
 // slder
-import slide1 from "../assets/img/slide/slide-1.jpg";
-import slide2 from "../assets/img/slide/slide-2.jpg";
-import slide3 from "../assets/img/slide/slide-3.jpg";
+//import slide1 from "../assets/img/slide/slide-1.jpg";
+//import slide2 from "../assets/img/slide/slide-2.jpg";
+//import slide3 from "../assets/img/slide/slide-3.jpg";
 
 //Data
 import { getRequest, params } from "../api/request";
+
+const slide1 = 'https://a.cdn-hotels.com/gdcs/production66/d41/07b19af0-8ab2-492e-97af-1ba8c6cac50a.jpg';
+const slide2 = 'https://a.cdn-hotels.com/gdcs/production66/d41/07b19af0-8ab2-492e-97af-1ba8c6cac50a.jpg';
+const slide3 = 'https://a.cdn-hotels.com/gdcs/production66/d41/07b19af0-8ab2-492e-97af-1ba8c6cac50a.jpg';
 
 class Homepage extends Component {
   componentDidMount() {
@@ -45,17 +49,13 @@ class Homepage extends Component {
                       Welcome to <span>PtasChuol</span>
                     </h2>
                     <p>
-                      Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
-                      ut et est quaerat sequi nihil ut aliquam. Occaecati alias
-                      dolorem mollitia ut. Similique ea voluptatem. Esse
-                      doloremque accusamus repellendus deleniti vel. Minus et
-                      tempore modi architecto.
+                      
                     </p>
-                    <div className="text-center">
-                      <a href="#hero" className="btn-get-started">
+                    { 1 > 2 ? <div className="text-center">
+                      <Link to="#" className="btn-get-started">
                         Read More
-                      </a>
-                    </div>
+                      </Link>
+                    </div>: null }
                   </div>
                 </div>
               </div>
@@ -66,19 +66,13 @@ class Homepage extends Component {
               >
                 <div className="carousel-container">
                   <div className="carousel-content animate__animated animate__fadeInUp">
-                    <h2>Lorem Ipsum Dolor</h2>
+                    <h2>
+                      Welcome to <span>PtasChuol</span>
+                    </h2>
                     <p>
-                      Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
-                      ut et est quaerat sequi nihil ut aliquam. Occaecati alias
-                      dolorem mollitia ut. Similique ea voluptatem. Esse
-                      doloremque accusamus repellendus deleniti vel. Minus et
-                      tempore modi architecto.
+                      
                     </p>
-                    <div className="text-center">
-                      <a href="#hero" className="btn-get-started">
-                        Read More
-                      </a>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -89,19 +83,13 @@ class Homepage extends Component {
               >
                 <div className="carousel-container">
                   <div className="carousel-content animate__animated animate__fadeInUp">
-                    <h2>Sequi ea ut et est quaerat</h2>
+                    <h2>
+                      Welcome to <span>PtasChuol</span>
+                    </h2>
                     <p>
-                      Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
-                      ut et est quaerat sequi nihil ut aliquam. Occaecati alias
-                      dolorem mollitia ut. Similique ea voluptatem. Esse
-                      doloremque accusamus repellendus deleniti vel. Minus et
-                      tempore modi architecto.
+                      
                     </p>
-                    <div className="text-center">
-                      <a href="#hero" className="btn-get-started">
-                        Read More
-                      </a>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -149,8 +137,7 @@ class Homepage extends Component {
               <div className="section-title">
                 <h2>Location in Phnom Penh</h2>
                 <p>
-                  Laborum repudiandae omnis voluptatum consequatur mollitia ea
-                  est voluptas ut
+                  
                 </p>
               </div>
 

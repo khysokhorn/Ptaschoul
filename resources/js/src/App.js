@@ -14,9 +14,14 @@ import KhanRoute from './routes/KhanRoute';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
-import slide1 from "./assets/img/slide/slide-1.jpg";
-import slide2 from "./assets/img/slide/slide-2.jpg";
-import slide3 from "./assets/img/slide/slide-3.jpg";
+// import slide1 from "./assets/img/slide/slide-1.jpg";
+// import slide2 from "./assets/img/slide/slide-2.jpg";
+// import slide3 from "./assets/img/slide/slide-3.jpg";
+
+
+const slide1 = 'https://a.cdn-hotels.com/gdcs/production66/d41/07b19af0-8ab2-492e-97af-1ba8c6cac50a.jpg';
+const slide2 = 'https://a.cdn-hotels.com/gdcs/production66/d41/07b19af0-8ab2-492e-97af-1ba8c6cac50a.jpg';
+const slide3 = 'https://a.cdn-hotels.com/gdcs/production66/d41/07b19af0-8ab2-492e-97af-1ba8c6cac50a.jpg';
 
 const AuthContext = React.createContext();
 

@@ -34,17 +34,13 @@ class Pages extends Component {
                       {title}
                     </h2>
                     <p>
-                      Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
-                      ut et est quaerat sequi nihil ut aliquam. Occaecati alias
-                      dolorem mollitia ut. Similique ea voluptatem. Esse
-                      doloremque accusamus repellendus deleniti vel. Minus et
-                      tempore modi architecto.
+                      
                     </p>
-                    <div className="text-center">
+                    { 1 > 2 ? <div className="text-center">
                       <Link to="#" className="btn-get-started">
                         Read More
                       </Link>
-                    </div>
+                    </div>: null }
                   </div>
                 </div>
               </div>
@@ -55,19 +51,17 @@ class Pages extends Component {
               >
                 <div className="carousel-container">
                   <div className="carousel-content animate__animated animate__fadeInUp">
-                    <h2>Lorem Ipsum Dolor</h2>
+                    <h2>
+                      {title}
+                    </h2>
                     <p>
-                      Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
-                      ut et est quaerat sequi nihil ut aliquam. Occaecati alias
-                      dolorem mollitia ut. Similique ea voluptatem. Esse
-                      doloremque accusamus repellendus deleniti vel. Minus et
-                      tempore modi architecto.
+                      
                     </p>
-                    <div className="text-center">
+                    { 1 > 2 ? <div className="text-center">
                       <Link to="#" className="btn-get-started">
                         Read More
                       </Link>
-                    </div>
+                    </div>: null }
                   </div>
                 </div>
               </div>
@@ -78,19 +72,17 @@ class Pages extends Component {
               >
                 <div className="carousel-container">
                   <div className="carousel-content animate__animated animate__fadeInUp">
-                    <h2>Sequi ea ut et est quaerat</h2>
+                    <h2>
+                      {title}
+                    </h2>
                     <p>
-                      Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea
-                      ut et est quaerat sequi nihil ut aliquam. Occaecati alias
-                      dolorem mollitia ut. Similique ea voluptatem. Esse
-                      doloremque accusamus repellendus deleniti vel. Minus et
-                      tempore modi architecto.
+                      
                     </p>
-                    <div className="text-center">
+                    { 1 > 2 ? <div className="text-center">
                       <Link to="#" className="btn-get-started">
                         Read More
                       </Link>
-                    </div>
+                    </div>: null }
                   </div>
                 </div>
               </div>

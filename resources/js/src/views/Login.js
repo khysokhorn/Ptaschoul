@@ -33,7 +33,7 @@ const Login = () => {
 
                                 
                                     <span className="invalid-feedback" role="alert">
-                                        <strong>message</strong>
+                                        <strong></strong>
                                     </span>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const Login = () => {
                                 <input id="password" type="password" className="form-control is-invalid" name="password" required autoComplete="current-password" />
 
                                     <span className="invalid-feedback" role="alert">
-                                        <strong>message</strong>
+                                        <strong></strong>
                                     </span>
                             </div>
                         </div>

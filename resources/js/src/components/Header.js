@@ -72,7 +72,7 @@ class Header extends Component {
 			  {
 				  auth => auth ? null :
 				  <li className={active('/register')}>
-					<Link to="/login">Login/Register</Link>
+					<a href="/login">Login/Register</a>
 				  </li>
 			  }
 			  </Auth>

@@ -2,8 +2,6 @@ import axios from 'axios';
 
 const apiUrl = process.env.MIX_API_URL;
 
-console.log('process', process.env.MIX_API_URL);
-
 export const params = {
   khans: "khans",
   houses: "houses",
