@@ -14,8 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:api')->get('/user', function (Request $request) {
+	// return $request->user();
+// });
+
+
+Route::get('/user', [App\Http\Controllers\KhanController::class, 'user']);
 
 Route::get('/khans', [App\Http\Controllers\KhanController::class, 'khans']);
